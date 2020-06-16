@@ -4,6 +4,7 @@ ARG ARTIFACT_NAME=net.gsi.connectors:dataries-zuul-server
 ARG ARTIFACT_VERSION=1.0.0
 ARG GITHUB_TOKEN
 
+COPY settings.xml ./
 
 RUN sed -i "s|GITHUB_TOKEN|$GITHUB_TOKEN|" settings.xml
 
