@@ -16,7 +16,7 @@ FROM openjdk:8-jre-slim
 LABEL version="gsi"
 LABEL maintainer="Dania Rojas<dania.rojas@generalsoftwareinc.com>"
 
-ENV ZUUL_SERVER_HOME=/opt/eureka/
+ENV ZUUL_SERVER_HOME=/opt/zuul-server/
 
 RUN useradd -lrmU dataries
 
