@@ -1,6 +1,6 @@
 # Description
 
-This image was created with the intention of achieving an easier deployment of Zuul Server component on Docker. We are not associated with Netflix OSS in anyway.
+This image was created with the intention of achieving an easier deployment of Zuul Server component on Docker, to see the image, in Docker Hub, follow this [link](https://hub.docker.com/repository/docker/gsiopen/zuul-server). We are not associated with Netflix OSS in anyway.
 
 # Quick reference
 
